@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "CardSavvy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: CardSavvy
+      - button "Toggle menu" [ref=e10]:
+        - img [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: 01 SPEND
+        - generic [ref=e18]: 02 PERKS
+        - generic [ref=e19]: 03 PROFILE
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "What kind of rewards do you prefer?" [level=2] [ref=e25]
+          - paragraph [ref=e26]: We'll prioritize cards that match these reward types.
+        - generic [ref=e27]:
+          - heading "Reward Type" [level=3] [ref=e28]
+          - generic [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]:
+              - heading "No Preference" [level=4] [ref=e31]
+              - paragraph [ref=e32]: Show me the absolute highest INR value
+            - generic [ref=e33] [cursor=pointer]:
+              - heading "Pure Cashback" [level=4] [ref=e34]
+              - paragraph [ref=e35]: Direct statement credit, no points
+            - generic [ref=e36] [cursor=pointer]:
+              - heading "Reward Points" [level=4] [ref=e37]
+              - paragraph [ref=e38]: Flexible redemptions for vouchers & goods
+            - generic [ref=e39] [cursor=pointer]:
+              - heading "Travel Miles" [level=4] [ref=e40]
+              - paragraph [ref=e41]: Air miles and hotel loyalty transfers
+        - generic [ref=e42]:
+          - heading "Annual Fee Willingness" [level=3] [ref=e43]
+          - combobox [ref=e44]:
+            - generic: Show me all cards (Calculate Net Value)
+            - img
+        - generic [ref=e45]:
+          - button "Back" [ref=e46]:
+            - img
+            - text: Back
+          - button "Almost Done" [ref=e47]:
+            - text: Almost Done
+            - img
+  - alert [ref=e48]
+```

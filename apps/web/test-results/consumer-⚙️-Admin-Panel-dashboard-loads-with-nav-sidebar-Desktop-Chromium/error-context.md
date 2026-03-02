@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: CardSavvy
+        - paragraph [ref=e11]: Admin
+    - navigation [ref=e12]:
+      - link "Dashboard" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img [ref=e14]
+        - text: Dashboard
+      - link "Card Ledger" [ref=e19] [cursor=pointer]:
+        - /url: /cards
+        - img [ref=e20]
+        - text: Card Ledger
+      - link "Ingestion Queue" [ref=e22] [cursor=pointer]:
+        - /url: /queue
+        - img [ref=e23]
+        - text: Ingestion Queue
+      - link "Analytics" [ref=e26] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e27]
+        - text: Analytics
+      - link "Settings" [ref=e29] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e30]
+        - text: Settings
+    - generic [ref=e33]:
+      - generic [ref=e36]: System Online
+      - paragraph [ref=e37]: Gemini AI · Supabase · Redis
+  - main [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Dashboard" [level=1] [ref=e42]
+          - paragraph [ref=e43]: CardSavvy engine control center
+        - link "Add Card via AI" [ref=e44] [cursor=pointer]:
+          - /url: /cards/new
+          - img [ref=e45]
+          - text: Add Card via AI
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - paragraph [ref=e52]: "0"
+          - paragraph [ref=e53]: Total Cards
+          - paragraph [ref=e54]: 0 active
+        - generic [ref=e55]:
+          - img [ref=e57]
+          - paragraph [ref=e60]: "0"
+          - paragraph [ref=e61]: Pending Queue
+          - paragraph [ref=e62]: awaiting review
+        - generic [ref=e63]:
+          - img [ref=e65]
+          - paragraph [ref=e67]: "0"
+          - paragraph [ref=e68]: Sessions Today
+          - paragraph [ref=e69]: recommendation runs
+        - generic [ref=e70]:
+          - img [ref=e72]
+          - paragraph [ref=e78]: "0"
+          - paragraph [ref=e79]: Affiliate Clicks
+          - paragraph [ref=e80]: all time via EarnKaro
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Quick Actions" [level=2] [ref=e83]
+          - paragraph [ref=e84]: Most common operations
+          - generic [ref=e85]:
+            - link "Add New Card (AI Scrape) Type card name → Gemini fetches all data" [ref=e86] [cursor=pointer]:
+              - /url: /cards/new
+              - img [ref=e88]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: Add New Card (AI Scrape)
+                - paragraph [ref=e92]: Type card name → Gemini fetches all data
+            - link "Review Ingestion Queue 0 items waiting for approval" [ref=e93] [cursor=pointer]:
+              - /url: /queue
+              - img [ref=e95]
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: Review Ingestion Queue
+                - paragraph [ref=e100]: 0 items waiting for approval
+            - link "Manage Card Ledger 0 cards total · 0 active" [ref=e101] [cursor=pointer]:
+              - /url: /cards
+              - img [ref=e103]
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: Manage Card Ledger
+                - paragraph [ref=e107]: 0 cards total · 0 active
+        - generic [ref=e108]:
+          - heading "System Status" [level=2] [ref=e109]
+          - paragraph [ref=e110]: Infrastructure health
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: Supabase DB
+              - generic [ref=e114]:
+                - img [ref=e115]
+                - text: Online
+            - generic [ref=e118]:
+              - generic [ref=e119]: Upstash Redis Cache
+              - generic [ref=e120]:
+                - img [ref=e121]
+                - text: Online
+            - generic [ref=e124]:
+              - generic [ref=e125]: Gemini AI (Scraper)
+              - generic [ref=e126]:
+                - img [ref=e127]
+                - text: Ready
+            - generic [ref=e130]:
+              - generic [ref=e131]: EarnKaro Affiliate Tracking
+              - generic [ref=e132]:
+                - img [ref=e133]
+                - text: Active
+      - generic [ref=e137]:
+        - img [ref=e138]
+        - generic [ref=e140]:
+          - heading "Database migrations not applied" [level=3] [ref=e141]
+          - paragraph [ref=e142]: No cards found in the database. Apply SQL migrations to get started.
+          - link "Open Supabase SQL Editor →" [ref=e143] [cursor=pointer]:
+            - /url: https://app.supabase.com/project/tfuxzjxvkwjakcaqzexm/sql/new
+```

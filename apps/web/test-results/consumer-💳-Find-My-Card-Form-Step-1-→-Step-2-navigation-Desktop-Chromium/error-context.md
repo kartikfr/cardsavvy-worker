@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "CardSavvy India" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: CardSavvy
+        - generic [ref=e9]: India
+      - navigation [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "Find My Card" [ref=e12] [cursor=pointer]:
+          - /url: /find-my-card
+      - link "Calculate Savings" [ref=e14] [cursor=pointer]:
+        - /url: /find-my-card
+        - img [ref=e15]
+        - text: Calculate Savings
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: 01 SPEND
+        - generic [ref=e23]: 02 PERKS
+        - generic [ref=e24]: 03 PROFILE
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - heading "What kind of rewards do you prefer?" [level=2] [ref=e30]
+          - paragraph [ref=e31]: We'll prioritize cards that match these reward types.
+        - generic [ref=e32]:
+          - heading "Reward Type" [level=3] [ref=e33]
+          - generic [ref=e34]:
+            - generic [ref=e35] [cursor=pointer]:
+              - heading "No Preference" [level=4] [ref=e36]
+              - paragraph [ref=e37]: Show me the absolute highest INR value
+            - generic [ref=e38] [cursor=pointer]:
+              - heading "Pure Cashback" [level=4] [ref=e39]
+              - paragraph [ref=e40]: Direct statement credit, no points
+            - generic [ref=e41] [cursor=pointer]:
+              - heading "Reward Points" [level=4] [ref=e42]
+              - paragraph [ref=e43]: Flexible redemptions for vouchers & goods
+            - generic [ref=e44] [cursor=pointer]:
+              - heading "Travel Miles" [level=4] [ref=e45]
+              - paragraph [ref=e46]: Air miles and hotel loyalty transfers
+        - generic [ref=e47]:
+          - heading "Annual Fee Willingness" [level=3] [ref=e48]
+          - combobox [ref=e49]:
+            - generic: Show me all cards (Calculate Net Value)
+            - img
+        - generic [ref=e50]:
+          - button "Back" [ref=e51]:
+            - img
+            - text: Back
+          - button "Almost Done" [ref=e52]:
+            - text: Almost Done
+            - img
+  - status [ref=e53]:
+    - generic [ref=e54]:
+      - img [ref=e56]
+      - generic [ref=e58]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+  - alert [ref=e63]
+```
