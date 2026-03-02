@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cardsavvy-worker
+    env: docker
+    dockerfilePath: ./scraper/Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: CRON_SECRET
+        sync: false
